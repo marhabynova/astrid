@@ -137,9 +137,9 @@ fun FoodCard(
                         Spacer(modifier = Modifier.width(6.dp))
                     }
                     val storageLabel = when (item.storageLocation) {
-                        com.lorenzovainigli.foodexpirationdates.model.entity.FoodStorageLocation.FRIDGE -> "❄️ " + stringResource(R.string.storage_fridge)
-                        com.lorenzovainigli.foodexpirationdates.model.entity.FoodStorageLocation.FREEZER -> "🧊 " + stringResource(R.string.storage_freezer)
-                        else -> "🥫 " + stringResource(R.string.storage_pantry)
+                        com.lorenzovainigli.foodexpirationdates.model.entity.FoodStorageLocation.FRIDGE -> stringResource(R.string.storage_fridge)
+                        com.lorenzovainigli.foodexpirationdates.model.entity.FoodStorageLocation.FREEZER -> stringResource(R.string.storage_freezer)
+                        else -> stringResource(R.string.storage_pantry)
                     }
                     Text(
                         modifier = Modifier.alpha(.7f),
