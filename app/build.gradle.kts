@@ -37,7 +37,7 @@ android {
         versionCode = 75
         versionName = "2.12"
 
-        base.archivesName.set("FoodExpirationDates-$versionName")
+        base.archivesName.set("Astrid-$versionName")
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {

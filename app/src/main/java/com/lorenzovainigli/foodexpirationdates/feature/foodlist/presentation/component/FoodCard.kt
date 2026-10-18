@@ -127,11 +127,24 @@ fun FoodCard(
                         fontSize = 18.sp
                     )
                 }
-                if (item.isOpened){
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    if (item.isOpened){
+                        Text(
+                            modifier = Modifier.alpha(.8f),
+                            text = stringResource(R.string.opened),
+                            fontSize = 12.sp
+                        )
+                        Spacer(modifier = Modifier.width(6.dp))
+                    }
+                    val storageLabel = when (item.storageLocation) {
+                        com.lorenzovainigli.foodexpirationdates.model.entity.FoodStorageLocation.FRIDGE -> "❄️ " + stringResource(R.string.storage_fridge)
+                        com.lorenzovainigli.foodexpirationdates.model.entity.FoodStorageLocation.FREEZER -> "🧊 " + stringResource(R.string.storage_freezer)
+                        else -> "🥫 " + stringResource(R.string.storage_pantry)
+                    }
                     Text(
-                        modifier = Modifier.alpha(.8f),
-                        text = stringResource(R.string.opened),
-                        fontSize = 12.sp
+                        modifier = Modifier.alpha(.7f),
+                        text = storageLabel,
+                        fontSize = 11.sp
                     )
                 }
             }

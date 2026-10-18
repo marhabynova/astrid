@@ -49,6 +49,7 @@ class FoodCardUiModelMapper @Inject constructor(
                 daysUntilExpiration <= 7 -> ExpirationStatus.EXPIRING_SOON
                 else -> ExpirationStatus.VALID
             },
+            storageLocation = com.lorenzovainigli.foodexpirationdates.model.analytics.FoodWasteAnalyticsCalculator.deduceStorageLocation(item)
         )
     }
 

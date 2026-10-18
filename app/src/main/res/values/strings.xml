@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Food Expiration Dates</string>
-    <string name="app_name_short">Food Expirations</string>
+    <string name="app_name">Astrid</string>
+    <string name="app_name_short">Astrid</string>
     <string name="n_days_ago">%1$d days ago</string>
     <string name="yesterday">Yesterday</string>
     <string name="today">Today</string>
@@ -127,4 +127,13 @@
     <string name="notifications_disabled_message">You have permanently disabled notifications. To receive alerts about expiring food, you must enable them manually from the phone\'s Settings.</string>
     <string name="open_settings">Open Settings</string>
     <string name="search">Search…</string>
+    <string name="scan_date_ocr">Scan Date (OCR)</string>
+    <string name="storage_location">Storage Location</string>
+    <string name="storage_fridge">Fridge</string>
+    <string name="storage_freezer">Freezer</string>
+    <string name="storage_pantry">Pantry</string>
+    <string name="filter_all">All</string>
+    <string name="filter_expiring_soon">Expiring Soon</string>
+    <string name="food_saved_percentage">%1$d%% Food Saved</string>
+    <string name="waste_analytics">Waste &amp; Savings</string>
 </resources>

@@ -10,8 +10,10 @@
 /.idea/deploymentTargetDropDown.xml
 .DS_Store
 /build
+**/build/
 /captures
 .externalNativeBuild
 .cxx
 local.properties
 keystore.properties
+app/google-services.json

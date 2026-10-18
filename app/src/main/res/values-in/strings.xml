@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Food Expiration Dates</string>
-    <string name="app_name_short">Food Expirations</string>
+    <string name="app_name">Astrid</string>
+    <string name="app_name_short">Astrid</string>
     <string name="n_days_ago">%1$d hari lalu</string>
     <string name="yesterday">Kemarin</string>
     <string name="today">Hari ini</string>
@@ -100,4 +100,14 @@
     <string name="notification_time_desc">Setiap hari Anda akan menerima notifikasi berisi daftar barang Anda:\n- sudah kalauarsa\n- yang kedaluwarsa pada tanggal saat ini\n- yang masih tersisa sehari hingga tanggal kedaluwarsa.</string>
     <string name="contacts">Kontak</string>
     <string name="privacy">Privasi</string>
+    <string name="search">Cari…</string>
+    <string name="scan_date_ocr">Pindai Tanggal (OCR)</string>
+    <string name="storage_location">Tempat Penyimpanan</string>
+    <string name="storage_fridge">Kulkas</string>
+    <string name="storage_freezer">Pembeku</string>
+    <string name="storage_pantry">Dapur / Rak</string>
+    <string name="filter_all">Semua</string>
+    <string name="filter_expiring_soon">Segera Kedaluwarsa</string>
+    <string name="food_saved_percentage">%1$d%% Makanan Terselamatkan</string>
+    <string name="waste_analytics">Penyelamatan &amp; Pemborosan</string>
 </resources>
